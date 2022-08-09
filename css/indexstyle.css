@@ -1,0 +1,15 @@
+body {background-color:#fff7bc}
+.diva {background-color:#747474;padding:0.5px;}
+ .titlea{color:#ffffff;text-align: center;}
+ ul{list-style-type:none;margin:0;padding:0;overflow:hidden;background-color:#f1f1f1;}
+ li {float:left;}
+ li a{display:block;color:#000;padding:8px 16px;text-decoration:none;}
+ li a:hover{background-color:#555;color:white;}
+ a.active{background-color:#364da9;color:white}
+ img{display:block;margin:auto;}
+ h1{text-align:center;}
+ h2{color:rgb(10, 43, 190);}
+ .divc {border:blue solid 1px;background-color:#f1f1f1;padding:8px}
+ h3{font-weight:500;font-size:1.2em}
+ .dive {border:blue solid 1px;background-color:#f1f1f1;padding:8px}
+.iconimg{float:left}
