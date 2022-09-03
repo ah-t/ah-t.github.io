@@ -1,6 +1,6 @@
 body {
-    background: url(backgrounds-gbe70f3b8e_1280.jpg);
-    background-size:100% 100%;
+    background: url(back.png);
+    background-size:10px 10px;
     margin:0px;
 }
 .main{
@@ -8,7 +8,7 @@ body {
 }
 
 .diva {
-    background-color:#747474;
+    background-color:#256fcf;
     display:flex;
     justify-content:flex-center;
 }
@@ -74,15 +74,19 @@ a.active{
  h3{
     font-weight:500;
     font-size:1.2em;
+    padding:5px;
 }
  .dive {
     border:blue solid 1px;
     background-color:#f1f1f1;
-    padding:8px;}
-.iconimg{
-    float:left;
+    padding:8px;
+    display:flex;
 }
-
+.img2{
+    height:4.2em;
+    width:3.4em;
+    border-radius:4px;
+}
 .animate-left{
     position:relative;
     animation:animateleft 0.4s;
@@ -127,4 +131,12 @@ bar-block .dropdown-hover,
     font-size:1em;
     width:2.8em;
     float:center;
+}
+.logoimg{
+    margin:auto;
+    width:2.2em;
+    height:2em;
+}
+.logo{
+    display:flex;
 }
