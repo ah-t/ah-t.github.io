@@ -5,23 +5,33 @@
         <title>箭头技术官网|首页</title>
         <link href="css/indexstyle.css" rel="stylesheet" type="text/css">
     </head>
-    <body>
-        <div class="diva">
-        <h3 class="titlea">箭 头 技 术</h3>
-        <ul>
-            <li><a class="active" href="index.html" ">首页</a></li>
-            <li><a href="produce.html">产品</a></li>
-        </ul>      
-        </div >
-        <div class="divb"> 
-        <br>
-        <img src="R-C.png" width="150em">
-        <h1>欢迎来到箭头技术的官网！</h1>
-        <hr>
-        <h2>近期任务</h2>
+    <body >
+        <div class="sidebar bar-block card animate-left" style="display:none" id="leftMenu">
+            <button onclick="closeLeftMenu()" class="closeSideBarBtn">关闭 &times;</button>
+            <ul>
+                <li><a class="active" href="index.html">首页--欢迎访问箭头主页</a></li>
+                <li><a href="produce.html">产品--欢迎欣赏箭头的拙作</a></li>
+            </ul> 
+         </div>
+        <script src="js\index.js"></script>
+        
+            <div class="diva">
+                <button class="openSideMenuBtn" class="w3-button w3-teal w3-xlarge" onclick="openLeftMenu()">&#9776;</button>
+                <span class="titlea" >箭 头 技 术</span>
+            </div >
+        <div class="main">
+            <div class="divb"> 
+                <br>
+                <img src="R-C.png" width="150em">
+                <h1 class="subTitle">欢迎!</h1>
+            </div>
+            <hr>
+            <h2>近期任务</h2>
+            <div class="divc">
+                <h3 class="content">迫于财务压力,我方准备做一个工具软件,软件严格保密,但是为了便于收费,将会建立一个网站,这将会是我生平第一次挣钱。这回要玩真的了,将会有软著,数据库,官网</h3>
+                <h3 class="content"><br>所以尽请期待！</h3>
+            </div>
         </div>
-        <div class="divc">
-            <h3 class="content">迫于财务压力,我方准备做一个工具软件,软件严格保密,但是为了便于收费,将会建立一个网站,这将会是我生平第一次挣钱。这回要玩真的了,将会有软著,数据库,官网</h3>
-            <h3 class="content"><br>所以尽请期待！</h3>
-        </div>
+        <span>Copyright©:MH Chen,from XinXiang,He'nan,Chian</span>
+    </body>
 </html>
