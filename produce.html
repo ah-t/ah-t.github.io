@@ -5,23 +5,33 @@
         <title>箭头技术官网|产品</title>
         <link href="css/indexstyle.css" rel="stylesheet" type="text/css">
     </head>
-    <body>
-        <div class="diva">
-        <h3 class="titlea">箭 头 技 术</h3>
-        <ul>
-            <li><a  href="index.html" ">首页</a></li>
-            <li><a class="active" href="produce.html">产品</a></li>
-        </ul>      
-        </div >
-        <div class="divb"> 
-        <br>
-        <img src="R-C.png" width="150em">
-        <h1>欢迎来看箭头技术的产品！</h1>
+    <body >
+        <div class="sidebar bar-block card animate-left" style="display:none" id="leftMenu">
+            <button onclick="closeLeftMenu()" class="closeSideBarBtn">关闭 &times;</button>
+            <ul>
+                <li><a class="active" href="index.html">首页--欢迎访问箭头主页</a></li>
+                <li><a href="produce.html">产品--欢迎欣赏箭头的拙作</a></li>
+            </ul> 
+         </div>
+        <script src="js\index.js"></script>
+        
+            <div class="diva">
+                <button class="openSideMenuBtn" class="w3-button w3-teal w3-xlarge" onclick="openLeftMenu()">&#9776;</button>
+                <div class="logo">
+                    <img src="arrowlogo.png" class="logoimg">
+                    <span class="titlea" >箭 头 技 术</span>
+                </div>
+            </div >
+        <div class="main">
+            <div class="divb"> 
+                <br>
+                <img src="R-C.png" width="150em">
+                <h1 class="subTitle">欢迎!</h1>
+            </div>
         <hr>
         <h2>主要产品</h2>
-        </div>
         <div class="dive" >
-            <img class="iconimg"src="unknow.png" height="80em">
+            <img class="img2" src="unknow.png">
             <h3> 正在秘密研发中...</h3>
         </div>
 </html>
