@@ -15,5 +15,5 @@ function gotoApidocs(){
     window.location.href = "apidocs.html";
 }
 function gotoDownload(){
-    window.location.href = "https://url82.ctfile.com/f/29362182-666965250-90cc25?p=1088 ";
+    window.location.href = "url82.ctfile.com/f/29362182-666965250-90cc25?p=1088";
 }
