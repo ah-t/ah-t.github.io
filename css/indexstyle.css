@@ -1,6 +1,6 @@
 body {
     background: url(back.png);
-    background-size:10px 10px;
+    background-size:20px 20px;
     margin:0px;
 }
 .main{
@@ -8,9 +8,9 @@ body {
 }
 
 .diva {
-    background-color:#256fcf;
+    background-color:#000000;
     display:flex;
-    justify-content:flex-center;
+    justify-content:space-between;
 }
 .divb{
     display:flex;
@@ -19,8 +19,8 @@ body {
  .titlea{
     color:#ffffff;
     text-align: center;
-    font-size:1.2em;
-    padding:0.5em;
+    font-size:1em;
+    padding:0.9em;
 }
 ul {
     list-style-type: none;
@@ -67,18 +67,14 @@ a.active{
  h2{
     color:white;
 }
- .divc {
-    border:rgb(18, 18, 193) solid 0.15em;
-    background-color:#fffcfcbd;
-    padding:8px;}
- h3{
+h3{
     font-weight:500;
     font-size:1.2em;
     padding:5px;
 }
  .dive {
-    border:blue solid 1px;
-    background-color:#f1f1f1;
+    border:rgb(0, 145, 255) solid 0.2em;
+    background-color:#fffcfcdd;
     padding:8px;
     display:flex;
 }
@@ -126,12 +122,17 @@ bar-block .dropdown-hover,
     box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 .openSideMenuBtn{
-    background-color:#256fcf;
+    background-color:#000000;
     color:white;
     font-size:1em;
     width:2.8em;
     float:center;
+    border:0em;
 }
+.openSideMenuBtn:hover{
+    background-color:#555;
+}
+
 .logoimg{
     margin:auto;
     width:2.2em;
@@ -139,4 +140,19 @@ bar-block .dropdown-hover,
 }
 .logo{
     display:flex;
+}
+.crspan{
+    color:white;
+    font-size:1em;
+    text-align:center;
+}
+.gopage{
+    background-color:green;
+    color:white;
+    font-size:1em;
+
+    height:2em;
+    border-radius:0.2em;
+    border-color:black;
+    margin:auto 20px auto;
 }
