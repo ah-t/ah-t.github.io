@@ -15,5 +15,5 @@ function gotoApidocs(){
     window.location.href = "apidocs.html";
 }
 function gotoDownload(){
-    window.location.href = "https://github.com/ArrowHeadtt/ArrowHeadtt.github.io/raw/main/Test.zip";
+    window.location.href = "https://url82.ctfile.com/f/29362182-666965250-90cc25?p=1088 ";
 }
