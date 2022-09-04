@@ -150,11 +150,10 @@ bar-block .dropdown-hover,
     background-color:green;
     color:white;
     font-size:1em;
-
     height:2em;
     border-radius:0.2em;
     border-color:#00000000;
-    margin:auto 20px auto;
+    margin:10px 0px 10px ;
 }
 .gopage:hover{
     border-color:#ffffff99;
