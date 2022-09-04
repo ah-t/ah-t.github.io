@@ -74,7 +74,8 @@ h3{
 }
  .dive {
     border:rgb(0, 145, 255) solid 0.2em;
-    background-color:#f1f1f1;
+    background: url(diveback.png);
+    background-size:40px 20px;
     padding:8px;
     display:flex;
 }
