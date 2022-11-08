@@ -30,7 +30,7 @@
                 <button class="openSideMenuBtn">&times;</button>
             </div >
             <div class="sidebar bar-block card animate-left" style="display:none" id="leftMenu">
-                <button onclick="closeLeftMenu()" class="closeSideBarBtn">关闭 &times;</button>
+                <button onclick="closeLeftMenu()" class="closeSideBarBtn">&times;</button>
                 <ul>
                     <li><a class="active">首页--箭头要闻</a></li>
                     <li><a href="produce.html">产品--箭头新科技</a></li> 
@@ -39,46 +39,59 @@
                 </ul> 
             </div>
         <div class="main">
-            <br><br><br><br>
-            <div class="divb"> 
-                <br>
-                <img src="R-C.png" width="150em">
-                <h1 class="subTitle">欢迎!</h1>
-            </div>
             
-            <h2>我们的产品</h2>
-        <div class="divb">
-            <img src="PixelBuild.png" width="150em">
-            <h1 class="subTitle">强大又好玩</h1>
-        </div>
-            <button class="gopage" onClick="gotoProduce()">去了解 &#10148</button>
+            <br><br><br>
+            <div class="image"> 
+                <br>
+                <img id="startImg" src="https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274_960_720.jpg" width="100%">
+                <p class="line-1 anim-typewriter">good things take time</p>
+            </div>
         <br>
-        
-        <span class="crspan">*该图标为PixelBuild的图标,预计于2023年1月上架</span>
-        <h2>产品服务与支持</h2>
+        <div class="divBody">
+        <!-- 产品div -->
+        <div class="card">    
+            <h2>我们的产品</h2>
+            <div class="divb">
+                <img src="PixelBuild.png" width="150em">
+                <h1 class="subTitle">强大又好玩</h1>
+            </div>
+            <button id="DefaultBtn" onClick="gotoProduce()">去了解 &#10148</button>
+            <br>
+            <span class="crspan">*该图标为PixelBuild的图标,预计于2023年1月上架</span>
+        </div>
+        <!-- 服务与支持div -->
+        <div class="card">
+            <h2>产品服务与支持</h2>
             <div class="divb">
                 <img src="Download.png" width="150em">
-            <h1 class="subTitle">下载软件扩展</h1>
+                <h1 class="subTitle">下载软件扩展</h1>
             </div> 
-            <button class="gopage" onClick="gotoMoresoft()">去了解 &#10148</button>
+            <button id="DefaultBtn" onClick="gotoMoresoft()">去了解 &#10148</button>
             <br>
-        <span class="crspan">在这里下载官方示例代码</span>
-        <h2>API文档</h2>
+            <span class="crspan">在这里,下载官方示例代码</span>
+        </div>
+        <!-- APIDocsDiv -->
+        <div class="card">
+            <h2>API文档</h2>
             <div class="divb">
                 <img src="deve.png" width="150em">
-            <h1 class="subTitle">用pigo做点东西</h1>
+                <h1 class="subTitle">用pigo干大事</h1>
             </div>
-            <button class="gopage" onClick="gotoApidocs()">去了解 &#10148</button>
+            <button id="DefaultBtn" onClick="gotoApidocs()">去了解 &#10148</button>
             <br>
-        <span class="crspan">该语言只能在PixelBuild中充当操作指令</span>
+            <span class="crspan">该语言只能在PixelBuild中充当操作指令</span>
+        </div>
+        </div>
         <br>
-        <h2>近期任务</h2>
+
+        <h2 class="h2o">近期任务</h2>
             <div class="dive">
                 <h3 class="content">迫于财务上的压力,我准备做一个工具软件,将会建立一个网站。这回要玩真的了,将会有软著,数据库,官网。<br>所以,尽请期待！</h3>
             </div>
             <br>
-            <br>
-        <span class="crspan" >Copyright©:MH Chen,from XinXiang,He'nan,China</span>
+        </div>
+        <div class="divInfo">
+            <span class="infoSpan" >Copyright©:MH Chen,from XinXiang,He'nan,China</span>
         </div>
     
     </body>
