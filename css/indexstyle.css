@@ -1,3 +1,20 @@
+#DefaultBtn{
+    background-color:#1565C0;
+    color:white;
+    border-width:0px;
+    font-weight:bolder;
+    font-size:0.9em;
+    padding: 4px 16px ;
+    margin: 10px 10px 10px 3px ;
+}
+#startImg{
+    display: block;
+    border-radius:0px;
+    height:150px;
+    width:400px;
+    background-size: cover;
+    margin: 0 auto;
+}
 body {
     background: url(back.png);
     background-size:40px 20px;
@@ -6,7 +23,13 @@ body {
 .main{
     margin:16px;
 }
-
+.divBody{
+    justify-content:center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,360px);
+    grid-gap:18px;
+    list-style: none;
+}
 .diva {
     position: fixed;
     left: 0px;
@@ -19,9 +42,10 @@ body {
 }
 .divb{
     display:flex;
+    text-align:center;
     justify-content:flex-start;
 }
- .titlea{
+.titlea{
     color:black;
     text-align: center;
     font-size:1em;
@@ -30,13 +54,13 @@ body {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    background-color: #eeeeee;
+    padding: 0px;
+    background-color: #FAFAFA;
 }
  
 .closeSideBarBtn,li a {
     display: block;
-    color: #f1f1f1;
+    color: #FAFAFA;
     color:black;
     padding: 8px 16px;
     text-decoration: none;
@@ -44,18 +68,21 @@ ul {
  
 /* 鼠标移动到选项上修改背景颜色 */
 li a:hover:not(.active) {
-    background-color:#c7e1f1;
+    background-color:#CFD8DC;
     color: black;
 }
+/*关闭按钮*/
 .closeSideBarBtn{
     background-color:rgb(209, 56, 56);
+    border-width:0px;
     color: white;
 }
+/*选中项*/
 a.active{
     background-color:#256fcf;
     color:white;
 }
- img{
+img{
     border-radius:10px;
     height:6em;width:6em;
 }
@@ -69,20 +96,37 @@ a.active{
     text-align:center;
     font-size:2.5em;
 }
- h2{
+h2{
     color:black;
+    
+}
+.h2o{
+    color:black;
+    text-align:center;
+    justify-content:center;
+    align-content:center;
 }
 h3{
     font-weight:500;
     font-size:1.2em;
     padding:5px;
 }
- .dive {
-    border:#124282 solid 0.15em;
-    background: url(diveback.png);
-    padding:8px 16px;
+.dive {
+    box-shadow: 5px 5px 15px gray;
+    background-color:white;
+    border-radius:3px;
+    padding:20px 15px 20px 15px;
     display:flex;
-}
+    align-content:center;
+    justify-content:flex-start;
+ }
+ .card{
+    box-shadow: 5px 5px 15px gray;
+    background-color:white;
+    border-radius:3px;
+    padding:0px 15px 20px 15px; 
+    margin: 5px;
+ }
 .img2{
     height:4.2em;
     width:3.4em;
@@ -94,19 +138,18 @@ h3{
 }
 @keyframes animateleft{
     from{
-        left:-300px;
         opacity:0;
     } to{
-        left:0;
+        top:-10;
         opacity:1;
     }
 }
 .sidebar{
     position:fixed;
-    top:0px;
-    height:100%;
+    padding: 0;
+    height:50%;
     width:250px;
-    background-color:#cccccc;
+    background-color:#FAFAFA;
     position:fixed!important;
     z-index:1;
     overflow:auto;
@@ -157,11 +200,7 @@ bar-block .dropdown-hover,
     border: solid #00000000; 
     background-color:#256fcf;
     border-radius:3px;
-    color:white;
-    font-weight:bolder;
-    font-size:0.9em;
-    padding: 4px 16px ;
-    margin: 10px 10px 10px 6px  ;
+    
 }
 .gobtn{
     border: solid #00000000; 
@@ -183,4 +222,46 @@ bar-block .dropdown-hover,
     padding:0px;
     font-size:1em;
     margin:0px;
+    text-align:center;
+    width:100%;
+}
+.divInfo{
+    background-color:#263238;
+    padding: 32px 16px ;
+}
+.infoSpan{
+    color:white;
+    font-size:1em;
+    text-align:center;
+}
+
+.line-1{
+    width: 24em;
+    margin: 0 auto;
+    color:white;
+    border-right: 5px solid #FAFAFA;
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;   
+}
+.image{
+    background-color:black;
+    
+}
+p{
+    padding:0 0 10px 0;
+}
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 5s steps(21) 1s 1 normal both,
+             blinkTextCursor 1000ms steps(21) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 11.5em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: white;}
+  to{border-right-color: transparent;}
 }
