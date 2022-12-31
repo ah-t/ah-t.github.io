@@ -6,7 +6,11 @@ function playmusic(){
     var timedowner = document.getElementById("timeDown");
     var nowtime = new Date();
     var tYear = nowtime.getFullYear();
-    if(tYear == 2023){}else{
+    if(tYear == 2022){
+        timedowner.innerHTML = "新年好";
+        welcome.innerHTML = "2023从新出发";
+        mycanvas.remove();
+    }else{
     setInterval (function () {
         timedowner.innerHTML = showtime();
     }, 1000);
@@ -19,6 +23,7 @@ function playmusic(){
         lefth = Math.floor(lefttime/(1000*60*60)%24),  //计算小时数
         leftm = Math.floor(lefttime/(1000*60)%60),  //计算分钟数
         lefts = Math.floor(lefttime/1000%60);  //计算秒数
+    if(nowtime.getFullYear() == 2023){mycanvas.remove();return "新年好";}
     return lefth + "小时" + leftm + "分" + lefts + "秒";  //返回倒计时的字符串
 }
 //window.requestAnimationFrame()这个API是浏览器提供的js全局方法，针对动画效果。
