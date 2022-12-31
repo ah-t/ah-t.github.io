@@ -6,7 +6,7 @@ function playmusic(){
     var timedowner = document.getElementById("timeDown");
     var nowtime = new Date();
     var tYear = nowtime.getFullYear();
-    if(tYear == 2022){
+    if(tYear == 2023){
         timedowner.innerHTML = "新年好";
         welcome.innerHTML = "2023从新出发";
         mycanvas.remove();
