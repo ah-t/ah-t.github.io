@@ -1,6 +1,6 @@
 #DefaultBtn{
-    background-color:#1565C0;
-    color:white;
+    background-color:rgb(22,68,80);
+    color:rgb(195,220,227);
     border-width:0px;
     font-weight:bolder;
     font-size:0.9em;
@@ -8,10 +8,9 @@
     margin: 10px 10px 10px 3px ;
 }
 #startImg{
-    display: block;
     border-radius:0px;
-    height:150px;
-    width:340px;
+    max-height:80px;
+    overflow:hidden;
     background-size: cover;
     margin: 0 auto;
 }
@@ -26,7 +25,7 @@ body {
 .divBody{
     justify-content:center;
     display: grid;
-    grid-template-columns: repeat(auto-fill,360px);
+    grid-template-columns: repeat(auto-fill,300px);
     grid-gap:18px;
     list-style: none;
 }
@@ -35,7 +34,7 @@ body {
     left: 0px;
     top: 0px;
     right: 0px;
-    background-color:#dddddd;
+    background-color:rgb(22,68,80);
     display:flex;
     padding:8px;
     justify-content:space-between;
@@ -46,7 +45,7 @@ body {
     justify-content:flex-start;
 }
 .titlea{
-    color:black;
+    color:rgb(195,220,227);
     text-align: center;
     font-size:1em;
     padding:0.9em;
@@ -55,21 +54,19 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0px;
-    background-color: #FAFAFA;
 }
  
 .closeSideBarBtn,li a {
     display: block;
-    color: #FAFAFA;
-    color:black;
+    color:rgb(195,220,227);
     padding: 8px 16px;
     text-decoration: none;
 }
  
 /* 鼠标移动到选项上修改背景颜色 */
 li a:hover:not(.active) {
-    background-color:#CFD8DC;
-    color: black;
+    
+    background-color:rgb(22,68,80);
 }
 /*关闭按钮*/
 .closeSideBarBtn{
@@ -79,25 +76,24 @@ li a:hover:not(.active) {
 }
 /*选中项*/
 a.active{
-    background-color:#256fcf;
+    background-color:rgb(22,68,80);
     color:white;
 }
 img{
     border-radius:10px;
-    height:6em;width:6em;
 }
 .subTitle{
     text-align:center;
-    font-size:2em;
+    font-size:1.6em;
     padding-left:0.5em;
-    color:black;
+    color:rgb(195,220,227);
 }
  h1{
     text-align:center;
     font-size:2.5em;
 }
 h2{
-    color:black;
+    color:rgb(195,220,227);
     
 }
 .h2o{
@@ -122,10 +118,11 @@ h3{
  }
  .card{
     box-shadow: 5px 5px 15px gray;
-    background-color:white;
+    background-color:rgb(33,103,120);
     border-radius:3px;
     padding:0px 15px 20px 15px; 
-    margin: 5px;
+    margin: 2px;
+    justify-content: space-between;
  }
 .img2{
     height:4.2em;
@@ -146,10 +143,8 @@ h3{
 }
 .sidebar{
     position:fixed;
-    padding: 0;
-    height:50%;
-    width:250px;
-    background-color:#FAFAFA;
+    padding:2px;
+    background-color:rgb(33,103,120);
     position:fixed!important;
     z-index:1;
     overflow:auto;
@@ -173,7 +168,7 @@ bar-block .dropdown-hover,
 }
 .openSideMenuBtn{
     background-color:transparent;
-    color:black;
+    color:rgb(195,220,227);
     font-size:1em;
     width:2.8em;
     float:center;
@@ -192,7 +187,7 @@ bar-block .dropdown-hover,
     display:flex;
 }
 .crspan{
-    color:black;
+    color:rgb(195,220,227);
     font-size:1em;
     text-align:center;
 }
@@ -236,32 +231,19 @@ bar-block .dropdown-hover,
 }
 
 .line-1{
-    width: 24em;
     margin: 0 auto;
     color:white;
-    border-right: 5px solid #FAFAFA;
     font-size: 180%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;   
 }
 .image{
-    background-color:black;
+    background-color:black; 
+    align-items:center;
+    padding:8px;
     
 }
 p{
     padding:0 0 10px 0;
-}
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 5s steps(21) 1s 1 normal both,
-             blinkTextCursor 1000ms steps(21) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 11.5em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: white;}
-  to{border-right-color: transparent;}
 }
