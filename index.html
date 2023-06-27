@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+
+<head>
+    <title>箭头实创官网</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="icon.png" sizes="16x16">
+    <meta name="viewport" content="width=device-width,
+		initial-scale=1.0,
+		minimum-scale=1.0,
+		maximum-scale=1.0,
+		user-scalable=no">
+    <meta name="keywords" content="Arrowheadtt,箭头技术官网,箭头技术,Arrowhead">
+    <meta name="description" content="arrowheadtt箭头技术官网|激发你的创造力">
+    <meta property="og:title" content="箭头技术官网" />
+    <meta property="og:description" content="箭头技术官网" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://keysaim.github.io/" />
+    <meta property="og:updated_time" content="2022-09-09T13:44:52&#43;08:00" />
+    <meta itemprop="name" content="箭头技术官网">
+    <meta itemprop="description" content="箭头技术官网">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="箭头技术官网" />
+    <meta name="twitter:description" content="箭头技术官网" />
+</head>
+
+<body>
+    <!--script src="js/index.js"></script-->
+    <!--根布局-->
+    <div class="main_layout">
+        <!-- 手机端的侧滑窗-->
+        <div id="squ-side">
+            <ul id="side_nav">
+                <li><a class="active">首页</a></li>
+                <li><a href="produce.html">软件</a></li>
+                <li><a href="moresoft.html">硬件</a></li>
+                <li><a href="apidocs.html">开发者</a></li>
+                <li><a href="apidocs.html">用户服务</a></li>
+            </ul>
+        </div>
+        <!--标题布局-->
+        <div id="title_layout">
+            <div id="title_group">
+                <!--logo矢量标-->
+                <embed src="logo.svg" width="140px" height="50px" type="image/svg+xml"
+                    pluginspage="http://www.adobe.com/svg/viewer/install/" />
+                <ul id="title_nav">
+                    <li><a class="active">首页</a></li>
+                    <li><a href="produce.html">软件</a></li>
+                    <li><a href="moresoft.html">硬件</a></li>
+                    <li><a href="apidocs.html">开发者</a></li>
+                    <li><a href="apidocs.html">用户服务</a></li>
+                </ul>
+            </div>
+            <div id="title_search">
+                <input type="text" name="" id="seach" class="search" value="搜寻内容">
+                <input type="button" name="" id="btn" value="">
+            </div>
+        </div>
+        <div id="weititle_layout"></div>
+        <!--轮播器部分-->
+        <div id="carousel">
+            <div id="car_fbox">
+                <div class="car_card" id="car_card1">
+                    <img id="tipimg" style="background-image:url(images/1.jpg)">
+                    <div id="car_tips">
+                        <h1>高效的运输</h1>
+                        <span>大城明日达，小城隔日达</span><br><br>
+                        <input type="button" name="" id="gotoBtn" value="立即定制">
+                    </div>
+                </div>
+                <div class="car_card" id="car_card2">
+                    <img id="tipimg" style="background-image:url(images/2.jpg)">
+                    <div id="car_tips">
+                        <h1>箭科硬件</h1>
+                        <span>我们研发的新型电路</span><br><br>
+                        <input type="button" name="" id="gotoBtn" value="立即了解">
+                    </div>
+                </div>
+                <div class="car_card" id="car_card3">
+                    <img id="tipimg" style="background-image:url(images/3.jpg)">
+                    <div id="car_tips">
+                        <h1>箭科软件</h1>
+                        <span>由我们提供的企业级解决方案</span><br><br>
+                        <input type="button" name="" id="gotoBtn" value="立即下载">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carousel-controls">
+                 <input type="button" class="btns" id="pause_btn" onclick="onPauseBtn()" value=""></input>
+                <input type="button" class="btns" id="left_btn" onclick="onpgup()" value="l"/></input>
+                <input type="button" class="btns" id="right_btn" onclick="onpgdn()" value="m"/></input>
+             <div id="pointgrp">
+                <div class="point" id="on1"></div>
+                <div class="point" id="on2"></div>
+                <div class="point" id="on2"></div>
+             </div>
+        </div>
+        <div id="morepage">
+            <br>
+            <div class="divBody">
+                <!-- 产品div -->
+                <div class="card">    
+                    <h2>我们的产品</h2>
+                    <div class="divb">
+                        <img src="images/rect871.png" width="80px" height="80px">
+                        <h1 class="subTitle">Achatool</h1>
+                    </div>
+                    <button id="DefaultBtn" onclick="gotoProduce()">去了解 m</button>
+                    <br>
+                    <span class="crspan">*该图标为Achatool的图标,预计于2023年10月上架</span>
+                </div>
+                <!-- 服务与支持div -->
+                <div class="card">
+                    <h2>产品服务与支持</h2>
+                    <div class="divb">
+                        <img src="images/Download.png" width="80px" height="80px">
+                        <h1 class="subTitle">使用时问题</h1>
+                    </div> 
+                    <button id="DefaultBtn" onclick="gotoMoresoft()">去查询 m</button>
+                    <br>
+                    <span class="crspan">在这里,帮您解决你遇到的错误</span>
+                </div>
+                <!-- APIDocsDiv -->
+                <div class="card">
+                    <h2>提建议</h2>
+                    <div class="divb">
+                        <img src="images/deve.png" width="80px" height="80px">
+                        <h1 class="subTitle">给我们建议</h1>
+                    </div>
+                    <button id="DefaultBtn" onclick="gotoApidocs()">去建议 m</button>
+                    <br>
+                    <span class="crspan">向我们的邮箱发送建议</span>
+                </div>
+                <!-- APIDocsDiv -->
+                <div class="card">
+                    <h2>以后的计划</h2>
+                    <div class="divb">
+                        <img src="images/arrowlogo_down.png" width="80px" height="80px">
+                        <h1 class="subTitle">宏伟的计划</h1>
+                    </div>
+                    <button id="DefaultBtn" onclick="gotoApidocs()">去查看 m</button>
+                    <br>
+                    <span class="crspan">我们以后的宏伟计划</span>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div id="buttom_info">
+            <span>Copyright©:MH Chen,from XinXiang,He'nan,China</span>
+            <p>Modify Date: 2023:02:19:02:18</p>
+        </div>
+    </div>
+    <script>
+        //侧滑窗部分实现
+        responsive();
+        //侧滑窗弹出则为true           
+        var onShow = false;
+        //时刻根据网页大小更改
+        function responsive() {
+            if (client().width < 670) {
+                var title_grp = document.getElementById("title_layout");
+                if (!document.getElementById("btn2")) {
+                    var inputbtn = document.createElement('input');
+                    inputbtn.type = "button";
+                    inputbtn.id = "btn2";
+                    inputbtn.value = "";
+                    inputbtn.onclick = function () {
+                        var side_win = document.getElementById("squ-side");
+                        if (!onShow) {
+                            side_win.style.transition = "all 1s";
+                            side_win.style.right = "0px";
+                            inputbtn.value = "9";
+                            onShow = true;
+                        } else {
+                            side_win.style.right = "-150px";
+                            inputbtn.value = ""
+                            onShow = false;
+                        }
+                    };
+                    title_grp.appendChild(inputbtn);
+                } else {
+                    document.getElementById("btn2").style.visibility = "visible";
+                }
+                document.getElementById("title_nav").style.visibility = "hidden";
+            } else if (client().width > 670) {
+                document.getElementById("title_nav").style.visibility = "visible";
+                if (document.getElementById("btn2")) {
+                    document.getElementById("btn2").value = "";
+                    document.getElementById("btn2").style.visibility = "hidden";
+                    document.getElementById("squ-side").style.right = "-150px";
+                    onShow = false;
+                }
+            }
+        }
+        function client() {
+            return {
+                width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth || 0,
+                height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight || 0,
+            }
+        };
+        window.addEventListener("resize", responsive);
+        //图片轮播实现部分
+        var WAIT_TIME = 4000;
+        var PAGE_HIDTH = 300;
+        //定时器
+        var timer = null;
+        var key = 0;
+        var square = 0;
+        timer = setInterval(autoPlay,WAIT_TIME);
+        var onList = document.getElementById("pointgrp").children;
+        var PAGE = onList.length;
+        //幻灯片
+        var pptArr = document.getElementById("car_fbox");
+        var height = 60;
+        onList[0].className = "onpoint";
+        var autoIndex = 0;
+        //自动放映幻灯片
+        function autoPlay(){
+            for(var i = 0; i < PAGE ; i++){
+                onList[i].className = "point";
+            }
+            autoIndex++;
+            if(autoIndex < PAGE){
+                onList[autoIndex].className = "onpoint";
+                height -= PAGE_HIDTH;
+                pptArr.style.top = height+"px";
+            }else{
+                autoIndex = 0;
+                height = 60;
+                pptArr.style.top = height+"px";
+                onList[autoIndex].className = "onpoint";
+            }
+        }
+        var isPause = false;
+        //暂停键
+        function onPauseBtn(){
+            if(isPause == false){
+                document.getElementById("pause_btn").value = "";
+                clearInterval(timer);
+                isPause = true ;
+            }else{
+                document.getElementById("pause_btn").value = "";
+                timer = setInterval(autoPlay , WAIT_TIME);
+                isPause = false;
+            }
+        }
+        //下页
+        function onpgdn(){
+            autoPlay();
+        }
+        //上页
+        function onpgup(){
+            for(var i = 0; i < PAGE ; i++){
+                onList[i].className = "point";
+            }
+            autoIndex;
+            if( 0< autoIndex & autoIndex < PAGE - 1){
+                autoIndex--;
+                onList[autoIndex].className = "onpoint";
+                height -= PAGE_HIDTH;
+                pptArr.style.top = height-"px";
+            }else if(autoIndex == 0){
+                autoIndex = PAGE - 1;
+                height = 60 - (PAGE_HIDTH * (autoIndex));
+                pptArr.style.top = height + "px";
+                onList[autoIndex].className = "onpoint";
+            }else{
+                autoIndex = 0;
+                height = 60;
+                pptArr.style.top = height+"px";
+                onList[autoIndex].className = "onpoint";
+            }
+        }
+    </script>
+</body>
+
+</html>

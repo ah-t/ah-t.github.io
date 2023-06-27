@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="384"
+   height="128"
+   viewBox="0 0 101.59999 33.866668"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="2.0460067"
+     inkscape:cx="297.89736"
+     inkscape:cy="31.036066"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g35334" />
+  <defs
+     id="defs2">
+    <rect
+       x="107.82825"
+       y="29.030682"
+       width="258.15028"
+       height="66.861906"
+       id="rect43410" />
+    <rect
+       x="110.59307"
+       y="24.192235"
+       width="248.83441"
+       height="60.82619"
+       id="rect2318" />
+    <rect
+       x="107.82825"
+       y="29.030682"
+       width="229.48064"
+       height="60.826191"
+       id="rect43410-9" />
+  </defs>
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g35353"
+       transform="translate(1.8928521)">
+      <g
+         id="g7178"
+         transform="translate(-3.1265383)">
+        <g
+           id="g10213"
+           transform="translate(-0.94311757)">
+          <g
+             id="g1484"
+             transform="matrix(0.03439053,0,0,0.03439053,9.8973604,8.5592388)"
+             style="fill:#ffffff">
+            <path
+               id="rect846"
+               style="fill:#ffffff;stroke-width:9.37556;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+               d="m 167.5,-5 v 80 h -80 v 80 h 80 80 V 75 -5 Z" />
+            <path
+               id="rect846-8-2"
+               style="fill:#ffffff;stroke-width:9.37556;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+               d="m 37.5,172 v 80 h 50 80 v 80 80 50 30 h 80 v -30 -50 -80 -80 -80 h -80 -80 z" />
+            <path
+               id="rect846-8-2-2"
+               style="fill:#ffffff;stroke-width:9.37556;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+               d="m 264.5,172 v 80 80 80 50 30 h 80 v -30 -50 -80 -80 h 80 50 v -80 h -50 -80 z" />
+            <path
+               id="rect846-6"
+               style="fill:#ffffff;stroke-width:9.37556;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+               d="m 424.5,75 h -80 V -5 h -80 v 80 80 h 80 80 z" />
+          </g>
+          <a
+             id="a879"
+             transform="matrix(0.83550305,0,0,0.83550305,15.278536,3.7553586)">
+            <g
+               id="g35334"
+               transform="translate(-0.18288175,-1.957409)">
+              <text
+                 xml:space="preserve"
+                 transform="matrix(0.30772289,0,0,0.30772289,-6.5895794,1.4731731)"
+                 id="text43408"
+                 style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43410);fill:#000000;fill-opacity:1;stroke:none"><tspan
+                   x="107.82812"
+                   y="68.40625"
+                   id="tspan11890"><tspan
+                     style="font-family:SimHei;-inkscape-font-specification:SimHei;fill:#ffffff"
+                     id="tspan11876">箭</tspan><tspan
+                     style="font-family:SimHei;-inkscape-font-specification:SimHei;fill:#ffffff"
+                     id="tspan11878"> </tspan><tspan
+                     style="font-family:SimHei;-inkscape-font-specification:SimHei;fill:#ffffff"
+                     id="tspan11880">头</tspan><tspan
+                     style="font-family:SimHei;-inkscape-font-specification:SimHei;fill:#ffffff"
+                     id="tspan11882"> </tspan><tspan
+                     style="font-family:SimHei;-inkscape-font-specification:SimHei;fill:#ffffff"
+                     id="tspan11884">实</tspan><tspan
+                     style="font-family:SimHei;-inkscape-font-specification:SimHei;fill:#ffffff"
+                     id="tspan11886"> </tspan><tspan
+                     style="font-family:SimHei;-inkscape-font-specification:SimHei;fill:#ffffff"
+                     id="tspan11888">创</tspan></tspan></text>
+            </g>
+          </a>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
