@@ -1,5 +1,5 @@
-body {
-  background-color: rgb(203, 208, 152);
+body {font-family:br2;
+  background-color: #111;
   background-size: 40px 20px;
   margin: 0px;
   overflow-x: hidden;
@@ -15,6 +15,12 @@ body {
 @font-face {
   font-family: "mdl2";
   src: url("dripicons-v2.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "br2";
+  src: url("DIN-Pro-Regular-2.otf");
   font-weight: normal;
   font-style: normal;
 }
@@ -154,6 +160,7 @@ a.active {
 }
 
 #gotoBtn ,#DefaultBtn{
+  text-align: center;
   font-family:mdl2;
   font-size: 14px;
   border-width: 0;
@@ -258,10 +265,10 @@ a.active {
   display:flex;
   justify-content: center;
   align-items: center;
-  background-color:rgb(234 237 199);
+  background-color:rgb(57,57,57);
 }
 .point{
-  background:#1b0606;
+  background-color:#fff;
   width:5px;
   padding:0.6px;
   height:5px;
@@ -278,7 +285,7 @@ a.active {
   margin:10px;
 }
 #morepage{
-  background-color: rgb(203, 208, 152);
+  background-color: #111;
   width:100%;
   min-height:600px;
 }
@@ -291,12 +298,12 @@ a.active {
 } 
 .card{
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-    background-color:rgb(234 237 199);
+    background-color:#2b2b2b;
     border-radius:3px;
     padding:0px 15px 20px 15px; 
     margin: 2px;
     text-align: center;
-    color:#1b0606;
+    color:#FFF;
 }
 #buttom_info{
     background-color:rgb(8, 80, 8);
