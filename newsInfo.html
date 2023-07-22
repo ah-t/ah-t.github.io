@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+
+<head>
+    <title>箭头实创官网</title>
+    <link href="css/news.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="icon.png" sizes="16x16">
+    <meta name="viewport" content="width=device-width,
+		initial-scale=1.0,
+		minimum-scale=1.0,
+		maximum-scale=1.0,
+		user-scalable=no">
+    <!-- 引入jquery -->
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!--script src="js/index.js"></script-->
+    <!--根布局-->
+    <div class="main_layout">
+        <!-- 手机端的侧滑窗-->
+        <div id="squ-side">
+            <ul id="side_nav">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="produce.html">产品</a></li>
+                <li><a class="active" href="news.html">新闻</a></li>
+                <li><a href="apidocs.html">开发者</a></li>
+                <li><a href="apidocs.html">用户服务</a></li>
+            </ul>
+        </div>
+        <!--标题布局-->
+        <div id="title_layout">
+            <div id="title_group">
+                <!--logo矢量标-->
+                <embed src="jianren.svg" width="140px" height="50px" type="image/svg+xml"
+                    pluginspage="http://www.adobe.com/svg/viewer/install/" />
+                <ul id="title_nav">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="produce.html">产品</a></li>
+                    <li><a class="active" href="news.html">新闻</a></li>
+                    <li><a href="apidocs.html">开发者</a></li>
+                    <li><a href="apidocs.html">用户服务</a></li>
+                </ul>
+            </div>
+            <div id="title_search">
+                <input type="text" name="" id="seach" class="search" value="搜寻内容">
+                <input type="button" name="" id="btn" value="">
+            </div>
+        </div>
+        <br><br><br>
+        <h1 id="BigTitle">1</h1><br>
+        <div id="page"></div>
+    </div>
+    <script>
+        //侧滑窗部分实现
+        responsive();
+        findInfo();
+        //侧滑窗弹出则为true           
+        var onShow = false;
+        //时刻根据网页大小更改
+        function responsive() {
+            if (client().width < 670) {
+                var title_grp = document.getElementById("title_layout");
+                if (!document.getElementById("btn2")) {
+                    var inputbtn = document.createElement('input');
+                    inputbtn.type = "button";
+                    inputbtn.id = "btn2";
+                    inputbtn.value = "";
+                    inputbtn.onclick = function () {
+                        var side_win = document.getElementById("squ-side");
+                        if (!onShow) {
+                            side_win.style.transition = "all 1s";
+                            side_win.style.right = "0px";
+                            inputbtn.value = "9";
+                            onShow = true;
+                        } else {
+                            side_win.style.right = "-150px";
+                            inputbtn.value = ""
+                            onShow = false;
+                        }
+                    };
+                    title_grp.appendChild(inputbtn);
+                } else {
+                    document.getElementById("btn2").style.visibility = "visible";
+                }
+                document.getElementById("title_nav").style.visibility = "hidden";
+            } else if (client().width > 670) {
+                document.getElementById("title_nav").style.visibility = "visible";
+                if (document.getElementById("btn2")) {
+                    document.getElementById("btn2").value = "";
+                    document.getElementById("btn2").style.visibility = "hidden";
+                    document.getElementById("squ-side").style.right = "-150px";
+                    onShow = false;
+                }
+            }
+        }
+        function client() {
+            return {
+                width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth || 0,
+                height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight || 0,
+            }
+        };window.addEventListener("resize", responsive);
+        var name;
+        function findInfo() {
+            name= decodeURI(document.URL);
+            name = name.slice(name.indexOf("=")+1);
+            document.getElementById("BigTitle").innerHTML = name 
+        }
+        $("#page").load("../article/"+decodeURI(name)+".htm");
+    </script>
+</body>
+</html>

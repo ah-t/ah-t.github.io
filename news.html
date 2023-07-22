@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+
+<head>
+    <title>箭头实创官网</title>
+    <link href="css/news.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="icon.png" sizes="16x16">
+    <meta name="viewport" content="width=device-width,
+		initial-scale=1.0,
+		minimum-scale=1.0,
+		maximum-scale=1.0,
+		user-scalable=no">
+    <meta name="keywords" content="Arrowheadtt,箭头技术官网,箭头技术,Arrowhead">
+    <meta name="description" content="arrowheadtt箭头技术官网|激发你的创造力">
+    <meta property="og:title" content="箭头技术官网" />
+    <meta property="og:description" content="箭头技术官网" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://keysaim.github.io/" />
+    <meta property="og:updated_time" content="2022-09-09T13:44:52&#43;08:00" />
+    <meta itemprop="name" content="箭头技术官网">
+    <meta itemprop="description" content="箭头技术官网">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="箭头技术官网" />
+    <meta name="twitter:description" content="箭头技术官网" />
+</head>
+<!-- 引入jquery -->
+<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+
+<body>
+    <!--script src="js/index.js"></script-->
+    <!--根布局-->
+    <div class="main_layout">
+        <!-- 手机端的侧滑窗-->
+        <div id="squ-side">
+            <ul id="side_nav">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="produce.html">产品</a></li>
+                <li><a class="active">新闻</a></li>
+                <li><a href="apidocs.html">开发者</a></li>
+                <li><a href="apidocs.html">用户服务</a></li>
+            </ul>
+        </div>
+        <!--标题布局-->
+        <div id="title_layout">
+            <div id="title_group">
+                <!--logo矢量标-->
+                <embed src="jianren.svg" width="140px" height="50px" type="image/svg+xml"
+                    pluginspage="http://www.adobe.com/svg/viewer/install/" />
+                <ul id="title_nav">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="produce.html">产品</a></li>
+                    <li><a class="active">新闻</a></li>
+                    <li><a href="apidocs.html">开发者</a></li>
+                    <li><a href="apidocs.html">用户服务</a></li>
+                </ul>
+            </div>
+            <div id="title_search">
+                <input type="text" name="" id="seach" class="search" value="搜寻内容">
+                <input type="button" name="" id="btn" value="">
+            </div>
+        </div>
+        <div class="sec_layout">
+            <br><br><br>
+            <h1>TOP STORIES</h1>
+            <div id="statement1" onclick="viewNews('美国斯坦福大学校长因学术不当行为辞职')">
+                <img id="stmt1img" src="https://p1.itc.cn/q_70/images03/20230720/bb261df6c88e431aac222614b5776110.jpeg"></img>
+                <h6>美国斯坦福大学校长因学术不当行为辞职</h6>
+            </div>
+            <div id="stmt2">
+                
+            </div>
+            <h1>FINANCIAL</h1>
+            <div id="stmt3">
+                
+            </div>
+            
+        </div>
+        
+        <br>
+        <br>
+        <div id="buttom_info">
+            <span>Copyright©:MH Chen,from XinXiang,He'nan,China</span>
+            <p>Modify Date: 2023:02:19:02:18</p>
+        </div>
+        
+    </div>
+    <script>
+        //侧滑窗部分实现
+        responsive();
+        //侧滑窗弹出则为true           
+        var onShow = false;
+        //时刻根据网页大小更改
+        function responsive() {
+            if (client().width < 670) {
+                var title_grp = document.getElementById("title_layout");
+                if (!document.getElementById("btn2")) {
+                    var inputbtn = document.createElement('input');
+                    inputbtn.type = "button";
+                    inputbtn.id = "btn2";
+                    inputbtn.value = "";
+                    inputbtn.onclick = function () {
+                        var side_win = document.getElementById("squ-side");
+                        if (!onShow) {
+                            side_win.style.transition = "all 1s";
+                            side_win.style.right = "0px";
+                            inputbtn.value = "9";
+                            onShow = true;
+                        } else {
+                            side_win.style.right = "-150px";
+                            inputbtn.value = ""
+                            onShow = false;
+                        }
+                    };
+                    title_grp.appendChild(inputbtn);
+                } else {
+                    document.getElementById("btn2").style.visibility = "visible";
+                }
+                document.getElementById("title_nav").style.visibility = "hidden";
+            } else if (client().width > 670) {
+                document.getElementById("title_nav").style.visibility = "visible";
+                if (document.getElementById("btn2")) {
+                    document.getElementById("btn2").value = "";
+                    document.getElementById("btn2").style.visibility = "hidden";
+                    document.getElementById("squ-side").style.right = "-150px";
+                    onShow = false;
+                }
+            }
+        }
+        function client() {
+            return {
+                width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth || 0,
+                height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight || 0,
+            }
+        };window.addEventListener("resize", responsive);
+        //调整网页
+        function viewNews(e){
+           
+            var e = 
+            window.location.href = encodeURI('./newsInfo.html?uname='+e);
+        }
+        getElementt();
+        function getElementt(){
+            $.getJSON("article/index.json", function (data) {
+                let d = [];
+                for(var i = 0 ; i < data.index.length ; i++){ d.push(data.index[i].name)}
+                var indexT = 0;
+                for(var i = 0 ; i < data.index.length ; i++){
+                    fetch("article/"+data.index[i].name+'.htm')
+                    .then(response=> response.text())
+                    .then(text=> {
+                        var popContent = "<div id=\"statement2\""+"onclick=\"viewNews(\'"+d[indexT]+"\')\">"+
+                        "<img id=\"stmt2img\" src=\""
+                        +fn(text)+"\"></img>"+
+                        "<h6>"+d[indexT]+"</h6>";
+                        $(document.getElementById("stmt2")).append(popContent);
+                        indexT++;
+                    });
+                }
+            });
+        }
+        getElementf();
+        function getElementf(){
+            $.getJSON("article/index.json", function (data) {
+                let d = [];
+                for(var i = 0 ; i < data.index2.length ; i++){ d.push(data.index2[i].name)}
+                var indexT = 0;
+                for(var i = 0 ; i < data.index2.length ; i++){
+                    fetch("article/"+data.index2[i].name+'.htm')
+                    .then(response=> response.text())
+                    .then(text=> {
+                        var popContent = "<div id=\"statement2\""+"onclick=\"viewNews(\'"+d[indexT]+"\')\">"+
+                        "<img id=\"stmt2img\" src=\""
+                        +fn(text)+"\"></img>"+
+                        "<h6>"+d[indexT]+"</h6>";
+                        $(document.getElementById("stmt3")).append(popContent);
+                        indexT++;
+                    });
+                }
+            });
+        }
+        // 截取富文本img方法
+		function fn(name){
+		    var data;
+		    name.replace(/<img [^>]*src=['"]([^'"]+)[^>]*>/, function (match, capture) {
+		        data = capture;
+		    });
+			console.log(data)
+		    return data
+		}
+    </script>
+</body>
+</html>

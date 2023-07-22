@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 33.866666 33.866668"
+   version="1.1"
+   id="svg859"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="JRNews.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview861"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="2.8934905"
+     inkscape:cx="80.007176"
+     inkscape:cy="110.76587"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs856" />
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1484"
+       transform="matrix(0.02431778,0.02431778,-0.02431778,0.02431778,16.629361,4.7866022)"
+       style="fill:#ffffff">
+      <path
+         id="rect846"
+         style="fill:#cccccc;stroke-width:9.37556;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+         d="m 167.5,-5 v 80 h -80 v 80 h 80 80 V 75 -5 Z" />
+      <path
+         id="rect846-8-2"
+         style="fill:#cccccc;stroke-width:9.37556;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+         d="m 37.5,172 v 80 h 50 80 v 80 80 50 30 h 80 v -30 -50 -80 -80 -80 h -80 -80 z" />
+      <path
+         id="rect846-8-2-2"
+         style="fill:#ffffff;stroke-width:9.37556;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+         d="m 264.5,172 v 80 80 80 50 30 h 80 v -30 -50 -80 -80 h 80 50 v -80 h -50 -80 z" />
+      <path
+         id="rect846-6"
+         style="fill:#ffffff;stroke-width:9.37556;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+         d="m 424.5,75 h -80 V -5 h -80 v 80 80 h 80 80 z" />
+    </g>
+  </g>
+</svg>

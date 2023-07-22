@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+
+<head>
+    <title>箭头实创官网</title>
+    <link href="css/news.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="icon.png" sizes="16x16">
+    <meta name="viewport" content="width=device-width,
+		initial-scale=1.0,
+		minimum-scale=1.0,
+		maximum-scale=1.0,
+		user-scalable=no">
+    <!-- 引入jquery -->
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!--script src="js/index.js"></script-->
+    <!--根布局-->
+    <div class="main_layout">
+        
+        <br><br><br>
+        <h1 id="BigTitle">1</h1><br>
+        <div id="page"></div>
+    </div>
+    <script>
+        
+        findInfo();
+        
+        var name;
+        function findInfo() {
+            name= decodeURI(document.URL);
+            name = name.slice(name.indexOf("=")+1);
+            document.getElementById("BigTitle").innerHTML = name 
+        }
+        $("#page").load("../article/"+decodeURI(name)+".htm");
+    </script>
+</body>
+</html>

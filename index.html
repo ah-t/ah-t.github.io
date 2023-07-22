@@ -32,8 +32,8 @@
         <div id="squ-side">
             <ul id="side_nav">
                 <li><a class="active">首页</a></li>
-                <li><a href="produce.html">软件</a></li>
-                <li><a href="moresoft.html">硬件</a></li>
+                <li><a href="produce.html">产品</a></li>
+                <li><a href="news.html">新闻</a></li>
                 <li><a href="apidocs.html">开发者</a></li>
                 <li><a href="apidocs.html">用户服务</a></li>
             </ul>
@@ -46,8 +46,8 @@
                     pluginspage="http://www.adobe.com/svg/viewer/install/" />
                 <ul id="title_nav">
                     <li><a class="active">首页</a></li>
-                    <li><a href="produce.html">软件</a></li>
-                    <li><a href="moresoft.html">硬件</a></li>
+                    <li><a href="produce.html">产品</a></li>
+                    <li><a href="news.html">新闻</a></li>
                     <li><a href="apidocs.html">开发者</a></li>
                     <li><a href="apidocs.html">用户服务</a></li>
                 </ul>
@@ -102,25 +102,27 @@
             <div class="divBody">
                 <!-- 产品div -->
                 <div class="card">    
-                    <h2>我们的产品</h2>
+                    <h2>最新产品</h2>
                     <div class="divb">
-                        <img src="images/rect871.png" width="80px" height="80px">
-                        <h1 class="subTitle">Achatool</h1>
+                        <embed src="JRNews.svg" width="80px" height="80px" type="image/svg+xml"
+                            pluginspage="http://www.adobe.com/svg/viewer/install/" />
+                        <h1 class="subTitle">箭刃新闻</h1>
                     </div>
                     <button id="DefaultBtn" onclick="gotoProduce()">去了解 m</button>
                     <br>
-                    <span class="crspan">*该图标为Achatool的图标,预计于2023年10月上架</span>
+                    <span class="crspan">一款强大的文本编辑器</span>
                 </div>
                 <!-- 服务与支持div -->
                 <div class="card">
-                    <h2>产品服务与支持</h2>
+                    <h2>新闻服务</h2>
                     <div class="divb">
-                        <img src="images/Download.png" width="80px" height="80px">
-                        <h1 class="subTitle">使用时问题</h1>
+                        <embed src="jianren.svg" width="200px" height="80px" type="image/svg+xml"
+                            pluginspage="http://www.adobe.com/svg/viewer/install/" />
+                        <h1 class="subTitle">我们的报社</h1>
                     </div> 
-                    <button id="DefaultBtn" onclick="gotoMoresoft()">去查询 m</button>
+                    <button id="DefaultBtn" onclick="gotoMoresoft()">看新闻 m</button>
                     <br>
-                    <span class="crspan">在这里,帮您解决你遇到的错误</span>
+                    <span class="crspan">专业的，犀利的，时事评论</span>
                 </div>
                 <!-- APIDocsDiv -->
                 <div class="card">
@@ -134,6 +136,18 @@
                     <span class="crspan">向我们的邮箱发送建议</span>
                 </div>
                 <!-- APIDocsDiv -->
+                <div class="card">
+                    <h2>版权说明</h2>
+                    <div class="divb">
+                        <embed src="cprit.svg" width="200px" height="80px" type="image/svg+xml"
+                            pluginspage="http://www.adobe.com/svg/viewer/install/" />
+                        <h1 class="subTitle">网站版权说明</h1>
+                    </div>
+                    <button id="DefaultBtn" onclick="gotoApidocs()">去查看 m</button>
+                    <br>
+                    <span class="crspan">认识帮助我们的人</span>
+                </div>
+                 <!-- CopyRight -->
                 <div class="card">
                     <h2>以后的计划</h2>
                     <div class="divb">
@@ -273,6 +287,9 @@
                 pptArr.style.top = height+"px";
                 onList[autoIndex].className = "onpoint";
             }
+        }
+        function gotoMoresoft(){
+            window.location.href = "news.html";
         }
     </script>
 </body>

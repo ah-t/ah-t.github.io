@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="cprit.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="28.96875"
+     inkscape:cx="16"
+     inkscape:cy="9.1995685"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path846"
+       style="fill:none;stroke:#dbdbdb;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       d="M 28.022825,16 A 12.022825,12.104336 0 0 1 16,28.104336 12.022825,12.104336 0 0 1 3.9771748,16 12.022825,12.104336 0 0 1 16,3.8956642 12.022825,12.104336 0 0 1 28.022825,16 Z" />
+    <g
+       aria-label="C"
+       id="text4909"
+       style="font-size:24.2682px;line-height:1.25;font-family:'DIN Pro';-inkscape-font-specification:'DIN Pro';stroke-width:0.606706">
+      <path
+         d="M 22.018513,19.640229 H 20.17413 c -0.461096,2.135602 -1.989992,3.494621 -4.149862,3.494621 -1.164874,0 -2.184138,-0.412559 -2.984989,-1.21341 C 11.94721,20.805103 11.825869,19.543157 11.825869,16 c 0,-3.543158 0.121341,-4.805104 1.21341,-5.921441 0.800851,-0.8008509 1.820115,-1.2134103 2.984989,-1.2134103 2.15987,0 3.64023,1.3590193 4.101326,3.4946213 h 1.892919 C 21.411808,9.1320989 19.154866,7.2149111 16.024268,7.2149111 c -1.795847,0 -3.251939,0.6309732 -4.31974,1.698774 C 10.078559,10.539655 9.9814863,12.044283 9.9814863,16 c 0,3.955716 0.097073,5.460344 1.7230417,7.086314 1.067801,1.067801 2.523893,1.698774 4.31974,1.698774 3.10633,0 5.38754,-1.917188 5.994245,-5.144859 z"
+         id="path10289"
+         style="fill:#dbdbdb;fill-opacity:1" />
+    </g>
+  </g>
+</svg>
