@@ -2,122 +2,126 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="384"
-   height="128"
-   viewBox="0 0 101.59999 33.866668"
+   width="1536"
+   height="512"
+   viewBox="0 0 1536 512"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    sodipodi:docname="logo.svg"
+   inkscape:export-filename="D:\技术资源\icon素材\logo2.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview7"
-     pagecolor="#505050"
+     pagecolor="#000000"
      bordercolor="#eeeeee"
      borderopacity="1"
      inkscape:pageshadow="0"
      inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
+     inkscape:pagecheckerboard="true"
      inkscape:document-units="px"
      showgrid="false"
-     units="px"
-     inkscape:zoom="2.0460067"
-     inkscape:cx="297.89736"
-     inkscape:cy="31.036066"
+     inkscape:zoom="0.04"
+     inkscape:cx="212.5"
+     inkscape:cy="-2712.5"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g35334" />
+     inkscape:current-layer="g2922" />
   <defs
-     id="defs2">
-    <rect
-       x="107.82825"
-       y="29.030682"
-       width="258.15028"
-       height="66.861906"
-       id="rect43410" />
-    <rect
-       x="110.59307"
-       y="24.192235"
-       width="248.83441"
-       height="60.82619"
-       id="rect2318" />
-    <rect
-       x="107.82825"
-       y="29.030682"
-       width="229.48064"
-       height="60.826191"
-       id="rect43410-9" />
-  </defs>
+     id="defs2" />
   <g
      inkscape:label="图层 1"
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g35353"
-       transform="translate(1.8928521)">
+       id="g2922"
+       transform="translate(24.188013)">
       <g
-         id="g7178"
-         transform="translate(-3.1265383)">
+         id="g1478"
+         transform="translate(-3.0589945e-7,10)">
         <g
-           id="g10213"
-           transform="translate(-0.94311757)">
+           id="g1484"
+           transform="translate(0,2.5)"
+           style="fill:#000000">
           <g
-             id="g1484"
-             transform="matrix(0.03439053,0,0,0.03439053,9.8973604,8.5592388)"
-             style="fill:#ffffff">
+             id="g831"
+             transform="matrix(0.605679,0,0,0.605679,100.94618,96.017163)"
+             style="fill:#ececec">
             <path
                id="rect846"
-               style="fill:#ffffff;stroke-width:9.37556;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
-               d="m 167.5,-5 v 80 h -80 v 80 h 80 80 V 75 -5 Z" />
+               style="fill:#ececec;stroke-width:9.37556;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+               d="M 170.80208,-1.6979208 V 84.302079 H 98.802079 V 164.30208 H 250.80208 V -1.6979208 Z"
+               sodipodi:nodetypes="ccccccc" />
             <path
                id="rect846-8-2"
-               style="fill:#ffffff;stroke-width:9.37556;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
-               d="m 37.5,172 v 80 h 50 80 v 80 80 50 30 h 80 v -30 -50 -80 -80 -80 h -80 -80 z" />
+               style="fill:#ececec;stroke-width:9.37556;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+               d="m 56.802079,174.69792 v 80 c 38,0 76.000001,0 114.000001,0 0,84.76791 0,154.23854 0,234 h 80 c 0,-108.9469 0,-216.65664 0,-314 -64.58127,0 -136.172,0 -194.000001,0 z"
+               sodipodi:nodetypes="ccccccc" />
             <path
                id="rect846-8-2-2"
-               style="fill:#ffffff;stroke-width:9.37556;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
-               d="m 264.5,172 v 80 80 80 50 30 h 80 v -30 -50 -80 -80 h 80 50 v -80 h -50 -80 z" />
+               style="fill:#ececec;stroke-width:9.37556;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+               d="m 261.19792,174.69792 v 314 h 80 v -234 h 114 v -80 z"
+               sodipodi:nodetypes="ccccccc" />
             <path
                id="rect846-6"
-               style="fill:#ffffff;stroke-width:9.37556;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
-               d="m 424.5,75 h -80 V -5 h -80 v 80 80 h 80 80 z" />
+               style="fill:#ececec;stroke-width:9.37556;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+               d="m 413.19792,84.302079 h -72 V -1.6979208 h -80 V 164.30208 h 152 z"
+               sodipodi:nodetypes="ccccccc" />
           </g>
-          <a
-             id="a879"
-             transform="matrix(0.83550305,0,0,0.83550305,15.278536,3.7553586)">
-            <g
-               id="g35334"
-               transform="translate(-0.18288175,-1.957409)">
-              <text
-                 xml:space="preserve"
-                 transform="matrix(0.30772289,0,0,0.30772289,-6.5895794,1.4731731)"
-                 id="text43408"
-                 style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43410);fill:#000000;fill-opacity:1;stroke:none"><tspan
-                   x="107.82812"
-                   y="68.40625"
-                   id="tspan11890"><tspan
-                     style="font-family:SimHei;-inkscape-font-specification:SimHei;fill:#ffffff"
-                     id="tspan11876">箭</tspan><tspan
-                     style="font-family:SimHei;-inkscape-font-specification:SimHei;fill:#ffffff"
-                     id="tspan11878"> </tspan><tspan
-                     style="font-family:SimHei;-inkscape-font-specification:SimHei;fill:#ffffff"
-                     id="tspan11880">头</tspan><tspan
-                     style="font-family:SimHei;-inkscape-font-specification:SimHei;fill:#ffffff"
-                     id="tspan11882"> </tspan><tspan
-                     style="font-family:SimHei;-inkscape-font-specification:SimHei;fill:#ffffff"
-                     id="tspan11884">实</tspan><tspan
-                     style="font-family:SimHei;-inkscape-font-specification:SimHei;fill:#ffffff"
-                     id="tspan11886"> </tspan><tspan
-                     style="font-family:SimHei;-inkscape-font-specification:SimHei;fill:#ffffff"
-                     id="tspan11888">创</tspan></tspan></text>
-            </g>
-          </a>
+        </g>
+      </g>
+      <g
+         id="g2904"
+         transform="matrix(0.98746395,0,0,0.98746395,-27.406031,-1.1980078)">
+        <g
+           id="g1379"
+           transform="matrix(0.85832571,0,0,0.85832571,323.70371,39.775765)">
+          <path
+             id="rect874"
+             style="fill:#ececec;stroke-width:43.3812;stroke-linecap:square;paint-order:markers fill stroke"
+             d="m 732.05859,153.57422 v 41.58984 h 71.39453 v 172.1875 h 41.58985 v -172.1875 h 71.39453 v -41.58984 h -71.39453 -41.58985 z"
+             transform="matrix(1.1650589,0,0,1.1650589,-377.13389,-46.341109)" />
+          <path
+             id="rect874-1"
+             style="fill:#ececec;stroke-width:38.6105;stroke-linecap:square;paint-order:markers fill stroke"
+             d="m 630.46875,153.57422 v 172.18945 h -104.4668 v 41.58789 h 104.4668 41.58984 V 325.76367 153.57422 Z"
+             transform="matrix(1.1650589,0,0,1.1650589,-377.13389,-46.341109)" />
+        </g>
+        <g
+           id="g1379-7"
+           transform="matrix(0.85832571,0,0,0.85832571,564.08283,39.775765)">
+          <rect
+             style="fill:#ececec;stroke-width:50.5416;stroke-linecap:square;paint-order:markers fill stroke"
+             id="rect874-0"
+             width="214.81277"
+             height="48.453999"
+             x="475.75674"
+             y="132.58252" />
+          <rect
+             style="fill:#ececec;stroke-width:54.4219;stroke-linecap:square;paint-order:markers fill stroke"
+             id="rect874-4-9"
+             width="249.06326"
+             height="48.453999"
+             x="132.58252"
+             y="-607.39014"
+             transform="rotate(90)" />
+        </g>
+        <g
+           id="g1379-2"
+           transform="matrix(0.85832571,0,0,0.85832571,804.4622,39.775765)">
+          <path
+             id="rect874-9"
+             style="fill:#ececec;stroke-width:43.3812;stroke-linecap:square;paint-order:markers fill stroke"
+             d="m 1212.8164,153.57422 v 41.58984 h 71.3945 v 172.1875 h 41.5899 v -172.1875 h 71.3945 v -41.58984 h -71.3945 -41.5899 z"
+             transform="matrix(1.1650589,0,0,1.1650589,-937.24584,-46.341109)" />
         </g>
       </g>
     </g>
